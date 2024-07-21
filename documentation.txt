@@ -1,0 +1,44 @@
+Steps and Commands
+
+Task 1: Repository Setup
+
+1. GitHub Repository Creation:
+- Created a new repository on GitHub named "PLPBasicGitAssignment" and initialized it with a README file.
+
+Task 2: Local Setup
+
+2. Local Folder Setup:
+- Created a folder named "PLPBasicGitAssignment" on my local machine.
+- Navigated to the folder in terminal:
+  cd path/to/PLPBasicGitAssignment
+
+3. Git Initialization:
+- Initialized a new Git repository:
+  git init
+
+4. Connecting to GitHub:
+- Linked the local repository to the GitHub repository:
+  git remote add origin <repository-url>
+  (Replaced <repository-url> with the actual URL of my GitHub repository)
+
+Task 3: Making Changes
+
+5. Create a File:
+- Created a text file named hello.txt with the message "Hello, Git!".
+
+6. Committing Changes:
+- Staged the changes:
+  git add hello.txt
+- Committed the changes:
+  git commit -m "Add hello.txt with a greeting"
+
+Task 4: Pushing to GitHub
+
+7. Pushing to GitHub:
+- Pushed the committed changes to the GitHub repository:
+  git push -u origin main
+
+Task 5: Verification
+
+8. Verify on GitHub:
+- Verified that hello.txt and the commit message were visible on my GitHub repository.
